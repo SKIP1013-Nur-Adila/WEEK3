@@ -1,0 +1,87 @@
+package numericData;
+/*monday
+ * 25/10/2021
+ * 
+ */
+
+public class Exercise1 { //Exercise1 nama java class
+	
+
+	public static void main(String[] args) { //dalam class mesti ada main method
+		// TODO Auto-generated method stub
+		int number1 = 11; //Declare 5 int variable and assign a value
+		int number2 = 22;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		double number6 = 66;
+		double number7 = 88;
+		float number8 = 99;
+		float number9 = 200;
+		int sum; //declare an integer variable called sum to hold the sum value
+		int sum2;
+		int sum3;
+		int average;
+		int average2;
+		double div;
+		float div2;
+		float multiply;
+		float mul2;
+		
+		sum = number1 + number2 + number3 + number4 + number5; //compute sum
+		sum3 = number1 + number2;
+		sum2 = number1 + number2 + number3;
+		average = (number1+number2+number3+number4+number5)/5;
+		average2 = (sum)/5; //cara kedua
+		div = number7/number6;
+		div2 = number9/number8;
+		multiply = number1*number2*number3;
+		mul2 = (number1*number2)/number3;
+		
+		
+		
+	System.out.print("The sum is "); //print a descriptive string
+	System.out.println(sum);
+		
+		
+	System.out.print("The sum of 3 number in sequence is "); //print a descriptive string
+	System.out.println(sum2);	
+		
+	System.out.print("The sum of 2 number in sequence is "); //print a descriptive string
+	System.out.println(sum3);
+	
+	System.out.printf("%n");
+	
+	System.out.print("The average is "); //print a descriptive string
+	System.out.println(average);
+	
+	System.out.print("The average is "); //print a descriptive string
+	System.out.println(average2);
+
+
+	System.out.printf("%n");
+	
+	System.out.print("The divide number of 6 and 7 is ");
+	System.out.println(div);
+	System.out.printf("The divide number of 6 and 7 is %.2f %n" , div);
+	
+	System.out.printf("%n");
+	
+	System.out.println("Divide float number of " + div2);
+	System.out.printf("Divide float number of %.2f" , div2);
+	
+	System.out.printf("%n");
+	System.out.printf("%n");
+	
+	System.out.println("The multiplication of 3 number is " + multiply);
+	System.out.printf("The multiplication of 3 number is %.2f %n" , multiply);
+	
+	System.out.printf("%n");
+	
+	System.out.println("Mul2 " + mul2);
+	System.out.printf("Mul2 %.2f" , mul2);
+	
+	
+	
+	}
+}
