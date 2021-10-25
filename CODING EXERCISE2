@@ -1,0 +1,45 @@
+package numericData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		
+		String name = ("Nur Adila Mohd Nazri");
+		String mat = ("Kolej Matrikulasi Labuan");
+		String jur = ("Sains Modul2 - SDS");
+		
+		double sem1 = 3.58;
+		double sem2 = 3.08;
+		
+		
+		double totalsem = (sem1 + sem2)/2;
+		
+	
+		
+		
+		
+		System.out.println("Nama saya " + name);
+		System.out.println("Dari " + mat);
+		System.out.println("Jurusan "+ jur);
+		System.out.println("PNGS SEMESTER 1 " + sem1);
+		System.out.println("PNGS SEMESTER 2 "+ sem2);
+		System.out.println("PNGK "+ totalsem);
+		
+		System.out.printf("%n", "------");
+		
+		
+		System.out.printf("%nNama saya %s",name);
+		System.out.printf("%nDari %s",mat);
+		System.out.printf("%nJurusan %s", jur);
+		System.out.printf("%nPNGS SEMESTER 1 %.2f" , sem1);
+		System.out.printf("%nPNGS SEMESTER 2 %.2f", sem2);
+		System.out.printf("%nPNGK %.2f", totalsem);
+		
+	
+	
+
+	}
+
+}
