@@ -1,0 +1,42 @@
+package selfProgramming;
+/*NUR ADILA
+ * 26/10/2021
+ * TASK 1
+ */
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double length = 1;
+		double width = 1;
+		//nilai variable
+		
+		double area ;
+		double perimeter;
+		//formula variable
+		
+		area = length * width;
+		perimeter = (length + length + width + width);
+		
+		System.out.println("The area is " + area);
+		System.out.println("The perimeter is " + perimeter);
+		//cara pertama
+		
+		System.out.print("The area is ");
+		System.out.println(area);
+		System.out.print("The perimeter is ");
+		System.out.println(perimeter);
+		//cara kedua
+		
+		
+		System.out.printf("%n");
+		
+		System.out.printf("%nThe area is %.1f ", area);
+		System.out.printf("%nThe perimeter is %.1f", perimeter);
+		//system...
+
+	}
+
+}
