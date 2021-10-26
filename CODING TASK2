@@ -1,0 +1,40 @@
+package selfProgramming;
+/*NUR ADILA
+ * 26/10/2021
+ * TASK 2
+ */
+
+public class CylinderComputation {
+	public static void main(String[] args) {
+		
+		double radius=1;
+		double height=1;
+		final double PI = 3.14159265;
+		
+		double surfaceArea;
+		double baseArea;
+		double volume;
+		
+		baseArea = PI*(radius*radius);
+		surfaceArea= (2.0*PI*radius*height);
+		volume= PI*(radius*radius)*height;
+		
+		
+		System.out.print("The surface area is ");
+		System.out.println(surfaceArea);
+		System.out.print("The base area is ");
+		System.out.println(baseArea);
+		System.out.print("The volume is ");
+		System.out.println(volume);
+		//cara pertama
+		
+		System.out.printf("%n");
+		
+		
+		System.out.printf("%nThe Surface Area is %.4f ", surfaceArea);
+		System.out.printf("%nThe Base Area is %.4f ", baseArea);
+		System.out.printf("%nThe Volume is %.4f ", volume);
+		//cara kedua
+	}
+
+}
